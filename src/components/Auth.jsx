@@ -164,8 +164,7 @@ const Auth = () => {
                 {isSignup ? 'Sign In' : 'Sign Up'}
               </span>
             </p>
-            <br />
-            <p>Sample User:</p> <br />
+            <p>Sample User:</p>
             <p>userid: testuser, pwd: Testuser123</p>
           </div>
         </div>

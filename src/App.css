@@ -148,6 +148,7 @@ body {
 
 .auth__form-container_fields-account {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 0.2rem;
