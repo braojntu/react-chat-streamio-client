@@ -51,7 +51,6 @@ const UserList = ({setSelectedUsers}) => {
   useEffect(() => {
     const getUsers = async () => {
       if (loading) return;
-
       setLoading(true);
 
       try {
@@ -73,7 +72,8 @@ const UserList = ({setSelectedUsers}) => {
     };
 
     if (client) getUsers();
-  }, [loading, client]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[]);
 
   if (error) {
     return (
